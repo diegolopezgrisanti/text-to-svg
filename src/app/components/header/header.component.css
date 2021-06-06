@@ -1,0 +1,12 @@
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background-color: var(--primary);
+    height: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 2rem;
+    color: var(--secondary-light);
+}
