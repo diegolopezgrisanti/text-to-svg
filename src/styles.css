@@ -9,6 +9,15 @@
     --secondart-dark: #ad8fb6;
 }
 
+/* ====== Forms ====== */
+
+::-webkit-input-placeholder { color: var(--primary-light); }
+
+.form {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
 /*====== Basics ======*/
 
 html {
@@ -107,6 +116,10 @@ html {
     margin: 10px;
 }
 
+.btn-block {
+    width: 100%;
+}
+
 .btn-primary{
     background: var(--primary) 0% 0% no-repeat padding-box;
     color: white;
@@ -126,6 +139,18 @@ html {
 .btn-outline:hover{
     border: 2px solid var(--primary-dark);
     cursor: pointer;
+}
+
+.btn-small {
+  font-size: 1rem;
+}
+
+.btn-medium {
+  font-size: 1.5rem;
+}
+
+.btn-large {
+  font-size: 2rem;
 }
 
   

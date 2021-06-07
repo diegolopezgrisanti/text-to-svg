@@ -8,6 +8,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FormComponent } from './components/form/form.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { PreviewComponent } from './components/preview/preview.component';
+import { ButtonComponent } from './components/button/button.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { PreviewComponent } from './components/preview/preview.component';
     FooterComponent,
     HeaderComponent,
     FormComponent,
-    PreviewComponent
+    PreviewComponent,
+    ButtonComponent
   ],
   imports: [
     BrowserModule,
