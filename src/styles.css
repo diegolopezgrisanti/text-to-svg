@@ -1,4 +1,5 @@
-/* You can add global styles to this file, and also import other style files */
+/*====== Variables ======*/
+
 :root {
     --primary: #7986cb;
     --primary-light: #aab6fe;
@@ -8,6 +9,123 @@
     --secondart-dark: #ad8fb6;
 }
 
-* {
+/*====== Basics ======*/
+
+html {
+    font-size: 16px;
+  }
+  body {
+    background-color: white;
     margin: 0;
+    /* TODO font-family: 'Oswald', sans-serif; */ 
+    font-size: 1rem;
+    color: black;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  ul,ol,li{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .container {
+    width: 65%;
+    margin: 0 auto;
+  }
+  
+  /*====== Background styles ======*/
+  
+  .bg-white{
+    background-color: white;
+  }
+  
+  /*====== Flexbox classes ======*/
+  
+  .d-flex{
+    display: flex;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .justify-between {
+    justify-content: space-between;
+  }
+  
+  .justify-around {
+    justify-content: space-around;
+  }
+  
+  .justify-start {
+    justify-content: flex-start;
+  }
+  
+  .justify-end {
+    justify-content: flex-end;
+  }
+  
+  .flex-column {
+    flex-direction: column;
+  }
+  
+  .flex-row {
+    flex-direction: row;
+  }
+  
+  .flex-align-items-center {
+    align-items: center;
+  }
+  
+  .flex-align-items-end {
+    align-items: flex-end;
+  }
+  
+  .flex-align-items-start {
+    align-items: flex-start;
+  }
+
+/*====== Buttons styles ======*/
+
+.btn{
+    /* TODO font-family: var(--font-oswald); */
+    font-size: 1.1rem;
+    padding: 8px 20px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    border: none;
+    margin: 10px;
 }
+
+.btn-primary{
+    background: var(--primary) 0% 0% no-repeat padding-box;
+    color: white;
+}
+
+.btn-primary:hover{
+    background-color: var(--primary-dark);
+    cursor: pointer;
+}
+
+.btn-primary-outline{
+    background: transparent 0% 0% no-repeat padding-box;
+    color: var(--primary);
+    border: 2px solid var(--primary);
+}
+
+.btn-outline:hover{
+    border: 2px solid var(--primary-dark);
+    cursor: pointer;
+}
+
+  

@@ -1,0 +1,15 @@
+<section>
+    <form [formGroup]="svgForm">
+        <div>
+            <input type="text" formControlName="text" placeholder="Text">
+        </div>
+        <div>
+            <input type="text" formControlName="font" placeholder="select font">
+            <select formControlName="font">
+                <option value="">select font</option>
+                <option *ngFor="let font of fonts" [ngValue]="font" >{{font.name}}
+                </option>
+             </select>
+        </div>
+    </form>
+</section>
