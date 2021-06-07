@@ -8,7 +8,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FormComponent } from './components/form/form.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { PreviewComponent } from './components/preview/preview.component';
-import { ButtonComponent } from './components/button/button.component';
+import { SvgExportComponent } from './components/svg-export/svg-export.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +17,7 @@ import { ButtonComponent } from './components/button/button.component';
     HeaderComponent,
     FormComponent,
     PreviewComponent,
-    ButtonComponent
+    SvgExportComponent
   ],
   imports: [
     BrowserModule,
