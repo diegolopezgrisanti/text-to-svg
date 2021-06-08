@@ -1,17 +1,19 @@
 /*====== Variables ======*/
 
 :root {
-    --primary: #7986cb;
-    --primary-light: #aab6fe;
-    --primary-dark: #49599a;
-    --secondary: #dfbfe8;
-    --secondary-light: #fff2ff;
-    --secondart-dark: #ad8fb6;
+  --primary: #7986cb;
+  --primary-light: #aab6fe;
+  --primary-dark: #49599a;
+  --secondary: #dfbfe8;
+  --secondary-light: #fff2ff;
+  --secondart-dark: #ad8fb6;
 }
 
 /* ====== Forms ====== */
 
-::-webkit-input-placeholder { color: var(--primary-light); }
+::-webkit-input-placeholder {
+  color: var(--primary-light);
+}
 
 .input {
   font-size: 1.5rem;
@@ -21,139 +23,140 @@
   border-radius: 8px;
   color: var(--primary-dark);
   outline: none;
-  
 }
 
 .select {
-background-color: white;
-border-radius: 8px;
-border: solid 1px var(--primary-light);
-color: var(--primary-light);
-font-size: 1.5rem;
-padding: 10px;
+  background-color: white;
+  border-radius: 8px;
+  border: solid 1px var(--primary-light);
+  color: var(--primary-light);
+  font-size: 1.5rem;
+  padding: 10px;
 }
 
 /*====== Basics ======*/
 
 html {
-    font-size: 16px;
-  }
-  body {
-    background-color: white;
-    margin: 0;
-    /* TODO font-family: 'Oswald', sans-serif; */ 
-    font-size: 1rem;
-    color: black;
-    width: 100vw;
-    overflow-x: hidden;
-  }
-  
-  * {
-    box-sizing: border-box;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  ul,ol,li{
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-  }
-  
-  .container {
-    width: 65%;
-    margin: 0 auto;
-  }
-  
-  /*====== Background styles ======*/
-  
-  .bg-white{
-    background-color: white;
-  }
-  
-  /*====== Flexbox classes ======*/
-  
-  .d-flex{
-    display: flex;
-  }
-  
-  .justify-center {
-    justify-content: center;
-  }
-  
-  .justify-between {
-    justify-content: space-between;
-  }
-  
-  .justify-around {
-    justify-content: space-around;
-  }
-  
-  .justify-start {
-    justify-content: flex-start;
-  }
-  
-  .justify-end {
-    justify-content: flex-end;
-  }
-  
-  .flex-column {
-    flex-direction: column;
-  }
-  
-  .flex-row {
-    flex-direction: row;
-  }
-  
-  .flex-align-items-center {
-    align-items: center;
-  }
-  
-  .flex-align-items-end {
-    align-items: flex-end;
-  }
-  
-  .flex-align-items-start {
-    align-items: flex-start;
-  }
+  font-size: 16px;
+}
+body {
+  background-color: white;
+  margin: 0;
+  /* TODO font-family: 'Oswald', sans-serif; */
+  font-size: 1rem;
+  color: black;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.container {
+  width: 65%;
+  margin: 0 auto;
+}
+
+/*====== Background styles ======*/
+
+.bg-white {
+  background-color: white;
+}
+
+/*====== Flexbox classes ======*/
+
+.d-flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-align-items-center {
+  align-items: center;
+}
+
+.flex-align-items-end {
+  align-items: flex-end;
+}
+
+.flex-align-items-start {
+  align-items: flex-start;
+}
 
 /*====== Buttons styles ======*/
 
-.btn{
-    /* TODO font-family: var(--font-oswald); */
-    font-size: 1.1rem;
-    padding: 8px 20px;
-    border-radius: 25px;
-    text-transform: uppercase;
-    border: none;
-    margin: 10px;
+.btn {
+  /* TODO font-family: var(--font-oswald); */
+  font-size: 1.1rem;
+  padding: 8px 20px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  border: none;
+  margin: 10px;
 }
 
 .btn-block {
-    width: 100%;
+  width: 100%;
 }
 
-.btn-primary{
-    background: var(--primary) 0% 0% no-repeat padding-box;
-    color: white;
+.btn-primary {
+  background: var(--primary) 0% 0% no-repeat padding-box;
+  color: white;
 }
 
-.btn-primary:hover{
-    background-color: var(--primary-dark);
-    cursor: pointer;
+.btn-primary:hover {
+  background-color: var(--primary-dark);
+  cursor: pointer;
 }
 
-.btn-primary-outline{
-    background: transparent 0% 0% no-repeat padding-box;
-    color: var(--primary);
-    border: 2px solid var(--primary);
+.btn-primary-outline {
+  background: transparent 0% 0% no-repeat padding-box;
+  color: var(--primary);
+  border: 2px solid var(--primary);
 }
 
-.btn-outline:hover{
-    border: 2px solid var(--primary-dark);
-    cursor: pointer;
+.btn-outline:hover {
+  border: 2px solid var(--primary-dark);
+  cursor: pointer;
 }
 
 .btn-small {
@@ -168,4 +171,88 @@ html {
   font-size: 2rem;
 }
 
-  
+/* ====== Fonts ====== */
+
+@font-face {
+  font-family: "Amuba";
+  src: url("./assets/fonts/amuba.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Arial Rounded MT Bold";
+  src: url("./assets/fonts/arialRoundedMTBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Catalunya demo";
+  src: url("./assets/fonts/catalunyaDemo.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cream Cake";
+  src: url("./assets/fonts/creamCake.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Goldie Rainbow";
+  src: url("./assets/fonts/goldieRainbow.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Harry P";
+  src: url("./assets/fonts/harryP.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Hello Valentina";
+  src: url("./assets/fonts/helloValentina.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "josephsophia";
+  src: url("./assets/fonts/josephsophia.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Kiss Boom";
+  src: url("./assets/fonts/kissBoom.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Rainbow Universe";
+  src: url("./assets/fonts/rainbowUniverse.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Rodfat Two Demo";
+  src: url("./assets/fonts/rodfatTwoDemo.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Unicorn Calligraphy";
+  src: url("./assets/fonts/unicornCalligraphy.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
