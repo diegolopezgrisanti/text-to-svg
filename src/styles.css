@@ -7,6 +7,7 @@
   --secondary: #dfbfe8;
   --secondary-light: #fff2ff;
   --secondart-dark: #ad8fb6;
+  --font-primary: 'Montserrat', sans-serif;
 }
 
 /* ====== Forms ====== */
@@ -42,7 +43,7 @@ html {
 body {
   background-color: white;
   margin: 0;
-  /* TODO font-family: 'Oswald', sans-serif; */
+  font-family: var(--font-primary);
   font-size: 1rem;
   color: black;
   width: 100vw;
@@ -125,7 +126,7 @@ li {
 /*====== Buttons styles ======*/
 
 .btn {
-  /* TODO font-family: var(--font-oswald); */
+  font-family: var(--font-primary);
   font-size: 1.1rem;
   padding: 8px 20px;
   border-radius: 25px;
@@ -255,4 +256,54 @@ li {
   src: url("./assets/fonts/unicornCalligraphy.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
+}
+
+/* ====== Font Class ======= */
+
+.font-amuba {
+  font-family: "Amuba", sans-serif;
+}
+
+.font-arial-rounded-mt-bold {
+  font-family: "Arial Rounded MT Bold", sans-serif;
+}
+
+.font-catalunya-demo {
+  font-family: "Catalunya demo", sans-serif;
+}
+
+.font-cream-cake {
+  font-family: "Cream Cake", sans-serif;
+}
+
+.font-goldie-rainbow {
+  font-family: "Goldie Rainbow", sans-serif;
+}
+
+.font-harry-p {
+  font-family: "Harry P", sans-serif;
+}
+
+.font-hello-valentina {
+  font-family: "Hello Valentina", sans-serif;
+}
+
+.font-josephsophia {
+  font-family: "josephsophia", sans-serif;
+}
+
+.font-kiss-boom {
+  font-family: "Kiss Boom", sans-serif;
+}
+
+.font-rainbow-universe {
+  font-family: "Rainbow Universe", sans-serif;
+}
+
+.font-rodfat-two-demo {
+  font-family: "Rodfat Two Demo", sans-serif;
+}
+
+.font-unicorn-calligraphy {
+  font-family: "Unicorn Calligraphy", sans-serif;
 }

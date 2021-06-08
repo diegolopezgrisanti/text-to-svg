@@ -17,13 +17,53 @@ export class SvgService {
 
   private readonly fontsArray : Font[] = [
     {
-      name: "Arial",
-      className: "font-arial"
+      name: "Amuba",
+      className: "font-amuba"
     },
     {
-      name: "Pepito",
-      className: "font-pepito"
-    }
+      name: "Arial Rounded MT Bold",
+      className: "font-arial-rounded-mt-bold"
+    },
+    {
+      name: "Catalunya demo",
+      className: "font-catalunya-demo"
+    },
+    {
+      name: "Cream Cake",
+      className: "font-cream-cake"
+    },
+    {
+      name: "Goldie Rainbow",
+      className: "font-goldie-rainbow"
+    },
+    {
+      name: "Harry P",
+      className: "font-harry-p"
+    },
+    {
+      name: "Hello Valentina",
+      className: "font-"
+    },
+    {
+      name: "Josephsophia",
+      className: "font-josephsophia"
+    },
+    {
+      name: "Kiss Boom",
+      className: "font-kiss-boom"
+    },
+    {
+      name: "Rainbow Universe",
+      className: "font-rainbow-universe"
+    },
+    {
+      name: "Rodfat Two Demo",
+      className: "font-rodfat-tow-demo"
+    },
+    {
+      name: "Unicorn Calligraphy",
+      className: "font-unicorn-calligraphy"
+    },
   ]; 
 
   constructor(private svgStore: SvgStore, private formBuilder: FormBuilder) {
