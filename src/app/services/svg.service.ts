@@ -42,7 +42,7 @@ export class SvgService {
     },
     {
       name: "Hello Valentina",
-      className: "font-"
+      className: "font-hello-valentina"
     },
     {
       name: "Josephsophia",
@@ -58,7 +58,7 @@ export class SvgService {
     },
     {
       name: "Rodfat Two Demo",
-      className: "font-rodfat-tow-demo"
+      className: "font-rodfat-two-demo"
     },
     {
       name: "Unicorn Calligraphy",
